@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste com Foto, áudio e vídeos</title>
+</head>
+<body>
+    <h1>Inserindo fotos</h1>
+    <p>Lembrando que, para o usuário, seria bom inserir mais de uma imagem para que, ao diminuir o tamanho da tela, essa imagem fosse carregada adequadamente</p>
+    <picture>
+        <source media="(max-width:750px )" srcset="imagem/foto-p.png" type="image/png">
+        <source media="(max-width:1050px )" srcset="imagem/foto-m.png" type="image/png">
+        <img src="imagem/foto-g.png" alt="Imamgem">
+    </picture>
+
+    <h1>Inserindo áudio</h1>
+    <p>Lembrando que este áudio está hospedado no próprio servidor</p>
+    <p>Outr coisa interessante é usar conversores de arquivos de áudio para mp3, wma e ogg </p>
+    <audio controls loop>
+        <source src="Audio/lento.mp3" type="audio/mp3">
+    </audio>
+
+    <h1>Inserindo vídeos</h1>
+    <p>Lembrando que há duas formas de inserir um vídeo, sendo:</p>
+    <h2>Hospedado no próprio server</h2>
+    <p>Lembrando que caso queira colocar uma capa, é necessário usar a tag poster e manipulá-la de acordo com o que você quer</p>
+    <video poster="imagem/gaivota.jpg" width="500" height="350"controls loop>
+        <source src="media/meu-video.mp4" type="video/mp4">
+        <source src="media/Meu-Video.webm" type="video/webm">
+        <p>Seu navegador não possui compatibilidade com vídeos</p>
+    </video>
+    <h2>Hospedagem fora</h2>
+    <p>Da pra hospedar com o youtube e Vimeo, os dois processos são os mesmos então estarei fazendo pelo youtube</p>
+    <p>É só clicar em compartilhar e depois Incorporar</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/lfiEfu_rTYM?si=jaq6HQEl9GRYkTtV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    
+
+    
+</body>
+</html>

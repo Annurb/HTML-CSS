@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+/*
+HTML id = CSS #
+HTML class= CSS .
+*/
+body{
+    background-color: rgb(171, 203, 171);
+    font-family:sans-serif;
+
+}
+h1{
+    color:rgb(9, 52, 9)
+}
+h1#principal{
+    text-align:center;
+    color: rgb(255, 255, 255);
+    background-color:rgb(55, 25, 25);
+    padding:10px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.379);
+}
+.basico{
+    color:rgb(63, 149, 63)
+}
+.intermediario{
+    color: rgb(125, 125, 34)
+}
+.avancado{
+    color:rgb(114, 42, 42)
+    }
+.destaque{
+        color:rgb(59, 59, 27);
+        font-weight: bold;;
+}
