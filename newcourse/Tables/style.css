@@ -1,0 +1,30 @@
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:center;
+}
+table{
+    margin:auto;
+}
+table{
+    border:1px solid black;
+    border-radius: 10px;
+    width: 700px
+}
+th{
+    background-color: #b7a6c89e;
+}
+th#right{
+    border-top-left-radius:10px;
+}
+th#left{
+    border-top-right-radius:10px;
+}
+tr#titulo{
+    font-family: Arial, Helvetica, sans-serif;
+    height: 50px;
+}
+td{
+    text-align:center;
+    height:25px;
+}
